@@ -1,0 +1,11 @@
+name: fde-s5
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11   # matches the Codespace (.devcontainer)
+  - requests
+  - chromadb
+  - opentelemetry-exporter-otlp-proto-grpc>=1.40   # else the solver picks 1.11, which breaks `import chromadb`
+  - pytest
+  - pyyaml
+  - make

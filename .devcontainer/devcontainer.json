@@ -1,0 +1,14 @@
+{
+  "name": "FDE Session 5",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "hostRequirements": { "cpus": 4 },
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": { "version": "latest" }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y zstd && curl -fsSL https://ollama.com/install.sh | sh && pip install requests chromadb pytest pyyaml",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
