@@ -1,0 +1,7 @@
+employee_id,name,title,manager,band,salary,band_min,band_max
+E101,Jordan Lee,Data Analyst II,Sam Okafor,B3,78000,72000,92000
+E102,Priya Shah,Senior Data Scientist,Sam Okafor,B5,128000,115000,145000
+E103,Marcus Brown,Data Engineer I,Sam Okafor,B2,61000,64000,80000
+E104,Ana Torres,HR Generalist,Rita Gomez,B3,70000,72000,92000
+E105,Sam Okafor,Analytics Manager,Rita Gomez,B6,152000,135000,170000
+E106,Rita Gomez,HR Director,,B7,171000,150000,190000

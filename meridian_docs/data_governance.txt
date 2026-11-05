@@ -1,0 +1,133 @@
+MERIDIAN ANALYTICS GROUP — DATA GOVERNANCE POLICY
+Section 12: Data Classification, Handling, and AI Tool Usage
+Last Revised: February 2025
+
+12.1 Purpose and Scope
+This policy applies to all Meridian Analytics Group employees, contractors, vendors, and
+any party who accesses Meridian data systems or handles Meridian data in any form. Its
+purpose is to ensure that data is handled in a manner consistent with its sensitivity,
+applicable law, and client contractual obligations. Violations of this policy may result
+in disciplinary action up to and including termination and may expose the individual and
+the company to legal liability.
+
+12.2 Data Classification Tiers
+All data at Meridian Analytics Group is classified into one of four tiers at the time of
+creation or receipt. If classification is unclear, employees must treat data as Tier 3
+until the Chief Data Officer or a designated Data Steward makes a formal classification
+determination.
+
+Tier 1 — Public
+Information approved for unrestricted external distribution. Examples include published
+research reports, press releases, marketing materials, job postings, and content on the
+public Meridian website. No access controls are required for Tier 1 data, and it may be
+freely shared inside and outside the organization.
+
+Tier 2 — Internal
+General business information not intended for external audiences, but whose loss or
+unauthorized disclosure would not materially harm the company or its clients. Examples
+include internal memos, meeting agendas, non-sensitive operational data, and general
+project status updates. Tier 2 data should not be shared externally without manager
+approval but does not require encryption at rest.
+
+Tier 3 — Confidential
+Sensitive business information whose unauthorized disclosure could harm the company,
+its clients, or its employees. Examples include client deliverables and underlying data,
+financial projections, personnel records and compensation information, proprietary
+methodologies and frameworks, and vendor contracts. Access to Tier 3 data is role-based
+and requires explicit manager or Data Steward approval. Tier 3 data may not be stored
+on personal devices, personal cloud storage (Google Drive, Dropbox, iCloud), or any
+system not managed by Meridian IT.
+
+Tier 4 — Restricted
+Highly sensitive information whose unauthorized disclosure would cause severe harm.
+Examples include active merger and acquisition activity, board-level financial data,
+executive compensation, unreleased product roadmaps, regulatory filings prior to
+submission, and any data subject to a legal hold. Access to Tier 4 data is limited to
+named individuals approved by a VP or above and the Chief Data Officer. Tier 4 data
+must be encrypted at rest using AES-256 and in transit using TLS 1.3 or higher. Tier 4
+data may not be printed without CDO approval.
+
+12.3 AI Tool Usage and Data Classification
+The use of AI tools in the workplace is subject to the following restrictions based on
+data classification tier.
+
+Employees may use external AI tools (including but not limited to ChatGPT, Claude,
+Gemini, Copilot, Perplexity, or any third-party AI assistant or API) freely with
+Tier 1 and Tier 2 data.
+
+Employees may NOT input Tier 3 or Tier 4 data into any external AI tool without explicit
+written approval from the Chief Data Officer. This prohibition applies regardless of
+whether the AI provider claims not to use inputs for training. The risk of data transmission
+to external servers, prompt logging, or future policy changes by the AI provider means
+that confidential and restricted data must not leave Meridian-controlled systems.
+
+Employees who need AI assistance with Tier 3 or Tier 4 work should submit a request to
+the IT department, which maintains a portfolio of approved internal AI tools deployed
+on Meridian-controlled infrastructure where data does not leave the corporate environment.
+
+The following uses are explicitly prohibited regardless of data tier:
+- Inputting client personal data (names, contact information, financial details) into
+  external AI tools under any circumstances
+- Using AI tools to draft communications that will be sent externally as if authored
+  by the employee without review and editing
+- Using AI tools to circumvent any access control, approval process, or policy
+
+12.4 Data Retention
+Tier 1 and Tier 2 data is retained for 3 years from the date of creation unless subject
+to a legal hold or a client contractual requirement specifying a longer period.
+
+Tier 3 data is retained for 7 years from the date of creation or last active use,
+whichever is later. Client data is subject to the retention terms specified in the
+applicable client contract, which supersedes this default policy.
+
+Tier 4 data retention periods are defined individually by Legal and the Chief Data Officer
+based on regulatory requirements and vary by data type.
+
+Employees must not delete, alter, or destroy any data that is subject to a legal hold,
+regardless of tier or normal retention schedule. Legal holds are communicated by the
+Legal department and remain in effect until explicitly lifted in writing.
+
+12.5 Incident Reporting
+Any suspected data breach, unauthorized access, or unintentional disclosure of Tier 3 or
+Tier 4 data must be reported to the Information Security team (security@meridianag.com)
+within 4 hours of discovery, regardless of the perceived severity. The IS team will assess
+the incident, determine notification obligations, and escalate per the Incident Response
+Playbook.
+
+Employees must also report any of the following as potential incidents: a lost or stolen
+device that accessed Meridian data, a misdirected email containing Tier 3 or Tier 4 data,
+a suspected phishing attack whether or not credentials were entered, and any unauthorized
+third party who appears to have accessed Meridian systems.
+
+Failure to report a known or suspected breach within the required timeframe is a terminable
+offense. Employees who report incidents in good faith will not face adverse employment
+action for the underlying incident provided they did not act with intent or gross negligence.
+
+12.6 Third-Party Data Sharing
+Client data (Tier 3) may only be shared with third parties — including contractors,
+vendors, technology platforms, and partner firms — under a signed and current Data
+Processing Agreement (DPA). Employees must not share client data with any third party
+without first confirming with the Legal team that a current DPA is on file.
+
+The Legal team maintains a DPA registry accessible on the company intranet under
+Legal > Vendor Agreements > Data Processing Agreements. If a DPA is not on file for
+a vendor with whom you need to share client data, contact Legal to initiate the agreement
+process. Standard DPA execution time is 5 to 10 business days.
+
+Sharing client data with a third party without a current DPA constitutes a breach of
+client contract and Meridian policy, and may trigger mandatory breach notification
+obligations under applicable law.
+
+12.7 Employee Training and Acknowledgment
+All employees must complete the annual Data Governance Training module in the Meridian
+Learning Management System (LMS) by January 31st each year. New employees must complete
+the training within their first 30 days of employment. Completion is tracked automatically
+by the LMS.
+
+Employees who fail to complete training by the deadline will have their access to Tier 3
+and Tier 4 systems suspended until training is completed. Repeated non-compliance will
+be escalated to HR for formal performance management action.
+
+By continuing employment at Meridian Analytics Group, employees acknowledge that they
+have read, understood, and agree to comply with this Data Governance Policy and all
+associated standards and procedures.

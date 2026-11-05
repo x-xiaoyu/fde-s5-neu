@@ -1,0 +1,109 @@
+MERIDIAN ANALYTICS GROUP — IT SYSTEMS AND ACCESS POLICY
+Section 9: Technology Use, Access Management, and Security
+Last Revised: April 2025
+
+9.1 Acceptable Use of Company Systems
+Company-owned or company-managed technology resources — including laptops, mobile devices,
+software, networks, email, and cloud services — are provided for business purposes. Incidental
+personal use is permitted provided it does not interfere with work responsibilities, consume
+significant bandwidth or storage, expose company systems to security risk, or violate any
+provision of this or other Meridian policies.
+
+Prohibited uses include but are not limited to: accessing, storing, or distributing illegal
+content; running personal business activities on company systems; using company email or
+systems to engage in harassment or discriminatory conduct; installing unauthorized software
+that has not been approved by the IT department; and circumventing security controls,
+monitoring tools, or access restrictions.
+
+Employees have no expectation of privacy when using company systems. Meridian reserves the
+right to monitor, access, and retain records of all activity on company-owned or managed
+systems for security, compliance, and operational purposes.
+
+9.2 Access Management
+Access to Meridian systems and data is granted on the principle of least privilege: employees
+receive the minimum access required to perform their job functions. Access is provisioned by
+IT upon receipt of a formal access request approved by the employee's manager.
+
+Access rights are reviewed quarterly by IT and department managers. Employees who change
+roles within the company must have their access rights updated within 5 business days of
+the role change effective date. Access that is no longer required must be revoked promptly.
+
+All employee access is disabled on the last day of employment. Former employees retain no
+rights to access company systems after separation, regardless of the nature of their departure.
+Employees must not retain copies of company data after their last day.
+
+9.3 Password and Authentication Requirements
+All Meridian system accounts must use passwords that are at least 14 characters in length
+and include a combination of uppercase letters, lowercase letters, numbers, and special
+characters. Passwords must not include the employee's name, username, or common dictionary
+words. Passwords must be changed every 180 days.
+
+Multi-factor authentication (MFA) is required for all systems accessible outside the
+corporate network, including email, VPN, cloud storage, and any SaaS platform integrated
+with Meridian SSO. Employees must enroll in MFA within their first 5 business days.
+Requests for MFA exemptions will not be granted.
+
+Employees must not share passwords or authentication credentials with any other person,
+including their own manager or IT staff. The IT help desk will never ask for a password.
+
+9.4 Device Management
+All devices used to access Meridian systems or data — whether company-owned or personal
+(BYOD) — must have the Meridian Mobile Device Management (MDM) profile installed. MDM
+enables the company to enforce security settings, remotely wipe lost or stolen devices,
+and ensure compliance with security standards.
+
+Company-issued laptops must not be used by family members or others outside the employee's
+household. Employees traveling internationally must notify IT at least 5 business days before
+departure; additional security configurations may be required for travel to certain countries.
+
+If a device is lost or stolen, the employee must notify IT Security immediately. IT may
+perform a remote wipe of the device. The employee is responsible for reporting the loss
+to their manager and completing an IT incident form within 24 hours.
+
+9.5 Software Installation and Shadow IT
+Only software that has been approved and listed on the IT-maintained Software Catalog may
+be installed on Meridian devices. Requests for new software must be submitted through the
+IT Service Portal and include a business justification. Standard approval time is 5 to 7
+business days. Urgent requests may be escalated to the IT Director.
+
+Employees may not use unapproved software as a workaround or create unauthorized
+technology solutions (Shadow IT) to solve business problems. Shadow IT creates security
+vulnerabilities, compliance risks, and data management problems that are difficult to
+detect and remediate. Employees who identify a business need not served by existing tools
+should submit a formal software request to IT rather than implementing their own solution.
+
+Cloud-based tools accessed through a browser (as opposed to installed software) are subject
+to the same approval requirement. Using a personal Google or Microsoft account to store
+company data, for example, is a Shadow IT violation.
+
+9.6 Remote Work and VPN
+Employees working remotely must connect to the Meridian VPN for any work that involves
+accessing Tier 3 or Tier 4 data, internal systems, or client environments. Tier 1 and
+Tier 2 work may be performed without VPN, but the VPN is recommended for all remote work
+on public or untrusted networks (cafes, hotels, airports).
+
+The VPN client is available for download from the IT intranet. Employees experiencing
+connectivity issues should contact the IT help desk before attempting to troubleshoot
+independently, as some self-remediation attempts can create security gaps.
+
+9.7 Security Awareness
+Employees must complete the annual Cybersecurity Awareness Training module in the Meridian
+LMS by January 31st each year. New employees must complete it within their first 30 days.
+
+Meridian conducts periodic simulated phishing campaigns. Employees who repeatedly fail
+phishing simulations will be required to complete additional security training. Habitual
+failure to recognize phishing attempts may result in escalation to HR.
+
+Employees are encouraged to report suspicious emails, links, or activity to the IT Security
+team at security@meridianag.com. Reporting suspicious activity is always the right course
+of action, even if the concern turns out to be unfounded.
+
+9.8 Help Desk and Support
+The IT Help Desk is available Monday through Friday, 7:00 AM to 8:00 PM Eastern, and can
+be reached by phone at ext. 4357 (HELP), by chat in the Meridian IT Teams channel, or by
+submitting a ticket at helpdesk.meridianag.com. After-hours emergency support for critical
+system outages is available by phone only.
+
+Standard ticket response time is 4 business hours for Priority 3 (routine) requests and
+1 business hour for Priority 2 (impaired productivity) requests. Priority 1 (critical
+system down) incidents are addressed immediately upon receipt.

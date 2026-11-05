@@ -1,0 +1,25 @@
+# The eval set. Each question lists what a right reply contains (case-insensitive;
+# "a|b" means either) and, for policy questions, the section retrieval should find.
+- question: How much PTO can I carry over?
+  expect: ["80 hours|10 days"]
+  section: "4.2"
+- question: How far in advance do I need to request vacation?
+  expect: ["5 business days", "14 business days"]
+  section: "4.3"
+- question: Can I use ChatGPT for work?
+  expect: ["Tier 1", "Tier 2"]
+  section: "12.3"
+- question: Can I paste my team's salaries into ChatGPT?
+  expect: ["Tier 3", "may not|not allowed|cannot|can't|prohibit"]
+  section: "12.3"
+- question: Who approved the new parking policy?
+  decline: true
+- question: Is Marcus Brown paid within range?
+  as: Sam Okafor
+  expect: ["below"]
+- question: Is Marcus Brown paid within range?
+  as: Jordan Lee
+  refuse: true
+- question: How much PTO can I carry over?
+  as: Sam Okafor
+  no_tool: true
